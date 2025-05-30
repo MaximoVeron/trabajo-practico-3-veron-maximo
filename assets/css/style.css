@@ -18,6 +18,20 @@ body {
 
 h1 {
     font-family: "Anton", sans-serif;
+    color: black;
+    font-size: 3rem;
+}
+
+span {
+    font-family: "Anton", sans-serif;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.footer-text {
+    font-family: "Anton", sans-serif;
+    text-align: center;
 }
 
 .logo-footer {
