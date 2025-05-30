@@ -2,3 +2,30 @@ html, body {
     height: 100%;
     margin: 0;
 }
+body {
+    background-image: url('../images/dbz1_fondo3-scaled.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#dragon_ball_super_name{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+h1 {
+    font-family: "Anton", sans-serif;
+}
+
+.logo-footer {
+    width: 50px;
+    height: auto;
+}
+
+.logo-footerr{
+    width: 70px;
+    height: auto;
+}
