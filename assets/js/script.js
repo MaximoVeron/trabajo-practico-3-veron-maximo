@@ -45,15 +45,16 @@ function renderCharacters(characters) {
         col.className = 'col-sm-6 col-md-4 col-lg-3';
 
         col.innerHTML = `
-            <div class="card h-100 shadow">
-                <img src="${character.image}" class="card-img-top" alt="${character.name}">
-                <div class="card-body">
-                    <h5 class="card-title">${character.name}</h5>
-                    <p class="card-text"><strong>Raza:</strong> ${character.race || 'Desconocida'}</p>
-                    <p class="card-text"><strong>Género:</strong> ${character.gender || 'Desconocido'}</p>
-                </div>
-            </div>
-        `;
+    <div class="card shadow h-100 d-flex flex-column">
+        <img src="${character.image}" class="card-img-top" alt="${character.name}">
+        <div class="card-body d-flex flex-column justify-content-between">
+            <h5 class="card-title">${character.name}</h5>
+            <p class="card-text"><strong>Raza:</strong> ${character.race || 'Desconocida'}</p>
+            <p class="card-text"><strong>Género:</strong> ${character.gender || 'Desconocido'}</p>
+        </div>
+    </div>
+`;
+
 
         // Evento que abre un modal con información detallada
         col.addEventListener('click', () => {

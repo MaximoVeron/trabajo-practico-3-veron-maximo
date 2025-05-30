@@ -1,14 +1,40 @@
 /* estructura */
-html, body {
+/* html, body {
     height: 100%;
     margin: 0;
-}
+} */
 body {
     background-image: url('../images/dbz1_fondo3-scaled.jpg');
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: contain; 
+    /* height: 100vh; */
+    /* min-height: 100vh; */
 }
+
+.card {
+    height: 370px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px; 
+    object-fit: contain; 
+    background-color: #f0f0f0; 
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
 
 /* texto */
 
